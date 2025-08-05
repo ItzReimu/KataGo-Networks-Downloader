@@ -467,7 +467,6 @@ class KataGoDownloader:
 def main():
     root = tk.Tk()
     app = KataGoDownloader(root)
-    # 添加GitHub链接的标签
     github_label = ttk.Label(root, text="GitHub: https://github.com/ItzReimu/KataGo-Networks-Downloader", foreground="blue", cursor="hand2")
     github_label.grid(row=8, column=0, columnspan=3, pady=(5, 0))
     github_label.bind("<Button-1>", lambda e: webbrowser.open("https://github.com/ItzReimu/KataGo-Networks-Downloader"))
